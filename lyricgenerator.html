@@ -1,0 +1,127 @@
+<DOCTYPE HTML>
+<html>
+<head>
+    <script src="lyricgenerator.js"></script>
+    <link href="../orgsitetemplate-u/css/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<style>
+
+
+.html,body{
+  background-color: yellow;
+  background-position: center;
+  background-size: 100px;
+
+}
+.page-header{
+  color:white;
+  background-size: 200px;
+  padding-left: 100px;
+  font-family: monospace;
+  font-weight: bolder;
+}
+
+#i{
+ font-size: 15px;
+ margin-right: 5%;
+ margin-top: 50px;
+ font-family: monospace;
+ color:black;
+ font-weight: bolder;
+}
+.button {
+  padding: 15px 25px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: yellow;
+  background-color:black;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  font-size: 45px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  width:50%;
+  height:100px;
+  font-family: monospace;
+  margin-top:100px;
+}
+
+.button:hover {background-color: darkgray}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#a{
+  width:100%;
+  font-size: 15px;
+  font-family: monospace;
+  height: 5%;
+  margin-right: 5%;
+}
+#a2{
+  width:100%;
+  font-size: 15px;
+  font-family: monospace;
+  height: 5%;
+  margin-right: 5%;
+  text
+}
+
+</style>
+</head>
+<body>
+  <div class="container-fluid">
+
+    <div class="row">
+  <div class="col-md-6">
+  <div class="page-header">
+  <h1> Random lyric generator<small> <br>press the button</br></small></h1>
+</div>
+</div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+  <input id="a" type="text" placeholder="Artist"  name="artist name">
+</div>
+<div class="col-md-6">
+<input id="a2" type="text" placeholder="Song Name" name="song name">
+</div>
+</div>
+
+<div class="col-md-6">
+<textarea id="i"rows="20" cols="75">
+</textarea>
+</div>
+
+<div class="col-md-6">
+  <center>
+
+  <FORM>
+    <INPUT type="button" value="Song lyrics" name="Generate lyrics" class="button pull-leftt" onClick="getSong()">
+  </FORM>
+</div>
+
+<div class="col-md-6">
+<center>
+  <FORM>
+    <INPUT type="button" value="Rap lyrics" name="Generate rap" class="button" onClick="getRap()">
+  </FORM>
+</div>
+</center>
+</div>
+
+
+
+
+
+
+</body>
+
+
+
+</html>
