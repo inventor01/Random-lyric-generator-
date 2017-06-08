@@ -2,7 +2,7 @@ var songs = ["Hey, hey, hey I got a condo in Manhattan Baby girl, what's hatnin'
 
 var raps = ["Answer this question and I'll answer what you asking me What happened if we got in an accident died tragically And convinced me that we not meant to be that have to be And like the defending champs you had to win it all back for me Just got to know how deep is our love actually What if this was the end and we had to bow out together I need you to tell me every emotion like now or never Only two times I ever needed you was now and forever Don't know what else to tell you"," First take You ain't on time, you were late When you around me, you're safe You can't go off of a heresay I know that look on your face You think you winnin' a race You think all I do is play I didn't put you in your place Then why you still here in my place? ", " Every time you go to sleep you look like you in Heaven Plus the head game is stronger than a few Excedrin You shine just like the patent leather on my new 11's You read me like a book like I'm the Bible, you the Reverend Yeah, I wanna tell the truth to you I wanna talk about my days as a youth to you Exposing you to all my demons and the reasons I'm this way I would like to paint a picture, but it'll take more than a day ","" ];
 
-var artist = ["Big sean", "Travis Scott", "J cole","Bruno Mars", "  New Edition", "Daneil Ceazer"];
+var artist = ["Big sean", "Travis Scott", "J cole","Bruno Mars", "New Edition", "Daneil Ceazer"];
 var songn = ["What I like","If it isn't Love", "Japanese Denim", "London Bridge", "First take","Shes mine pt.1"];
 
 
